@@ -13,7 +13,7 @@ function User(){
                 setUsers(null);
                 setLoading(true);
                 const response = await axios.get(
-                    'https://jsonplaceholder.typicode.com/users'
+                    'https://jsonplaceholder.typicode.com/u123sers'
                 )
                 setUsers(response.data);
             } catch(e) {
